@@ -473,6 +473,59 @@
                  <div class="sheet-item sheet-little"><input type="text" name="attr_weaponFar" value=""/></div>
             </div>
         </fieldset>
+        <div class="sheet-item sheet-center">
+            <h3>Gear</h3>
+        </div>
+        <!-- Gear header, widths have to match the weapon boxes below -->
+        <div class="sheet-header">
+            <div class="sheet-item sheet-big"><label>Name</label></div>
+            <div class="sheet-item sheet-pico"></div>
+            <div class="sheet-item sheet-little"><label>Description</label></div>
+            <div class="sheet-item sheet-micro"></div>
+        </div>
+
+        <!-- Dynamic gear list, widths have to match the header above -->
+        <fieldset class="repeating_gear">
+            <div class="sheet-row">
+                <div class="sheet-item sheet-big"><input type="text" name="attr_gear"/></div>
+                <div class="sheet-item sheet-pico"></div>
+                 <div class="sheet-item sheet-morebig"><input type="text" name="attr_gearDescription" value=""/></div>
+                <div class="sheet-item sheet-pico"></div>
+            </div>
+        </fieldset>
+ 
+        <div class="sheet-item sheet-center">
+            <h3>Dispositions</h3>
+        </div>
+        <!-- Dispositions header, widths have to match the weapon boxes below -->
+        <div class="sheet-header">
+            <div class="sheet-item sheet-little"><label>Description</label></div>
+            <div class="sheet-item sheet-micro"></div>
+        </div>
+        <!-- Dynamic dispositions list, widths have to match the header above -->
+        <fieldset class="repeating_dispositions">
+            <div class="sheet-row">
+                 <div class="sheet-item sheet-morebig"><input type="text" name="attr_disposition" value=""/></div>
+                <div class="sheet-item sheet-pico"></div>
+            </div>
+        </fieldset>
+
+        <div class="sheet-item sheet-center">
+            <h3>Cues</h3>
+        </div>
+        <!-- Cues header, widths have to match the weapon boxes below -->
+        <div class="sheet-header">
+            <div class="sheet-item sheet-little"><label>Cue</label></div>
+            <div class="sheet-item sheet-micro"></div>
+        </div>
+        <!-- Dynamic Cues list, widths have to match the header above -->
+        <fieldset class="repeating_cure">
+            <div class="sheet-row">
+                 <div class="sheet-item sheet-morebig"><input type="text" name="attr_cues" value=""/></div>
+                <div class="sheet-item sheet-pico"></div>
+            </div>
+        </fieldset>
+        
     </div>
     <div class="sheet-wrapper">
         <div class="sheet-fiftypercent">
@@ -498,11 +551,6 @@
             <textarea class="sheet-textarea" name="attr_qualityP2"></textarea>
             <textarea class="sheet-textarea" name="attr_qualityN1"></textarea>
             <div class="sheet-row sheet-item"></div>
-            <div class="sheet-item sheet-center">
-                <h3>Plot Directives</h3>
-            </div>
-            <textarea class="sheet-textarea" name="attr_plotDirective1"></textarea>
-            <textarea class="sheet-textarea" name="attr_plotDirective2"></textarea>
         </div>
     </div>
     <!--
